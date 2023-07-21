@@ -1,0 +1,35 @@
+/* LoginForm.css */
+
+.login-form {
+    background-color: rgba(0, 255, 0, 0.5); /* Color verde fluo con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .login-form label {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    background-color: rgba(0, 255, 0, 0.7); /* Color verde fluo con transparencia */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: rgba(0, 255, 0, 1); /* Color verde fluo sin transparencia al pasar el cursor */
+  }
+  
